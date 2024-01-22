@@ -57,18 +57,22 @@ a{
     color: white;
     background-color: red;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 0;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
 }
 
 .sustain{
     color: white;
     background-color: green;
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 10%;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.sustain_different{
+    left: 0;
 }
 
 .hearts{
@@ -86,6 +90,18 @@ a{
 .card:hover .hearts{
     display:block;
     color: black;
+}
+
+.brand{
+    color: grey;
+}
+
+.new_price{
+    color: red;
+}
+
+.old_price{
+    text-decoration: line-through;
 }
 
 #site_footer{
