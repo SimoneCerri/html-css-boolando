@@ -1,22 +1,9 @@
+/* #region Common */
+
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: "Balsamiq Sans", sans-serif;
-}
-
-#site_header {
-    background-color: rgb(241, 121, 7);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    padding: 1rem;
-    z-index: 9999;
-}
-
-.list{
-    display: flex;
 }
 
 li{
@@ -29,25 +16,9 @@ a{
     color: white;
 }
 
-.logo>img{
-    width: 100px;
-}
+/* #endregion Common */
 
-#site_main{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card{
-    position: relative;
-    width: 33%;
-    padding: 2rem;
-    margin-top: 5rem;
-}
-
-.card>img{
-    width: 100%;
-}
+/* #region Utilities */
 
 .discount{
     color: white;
@@ -83,10 +54,6 @@ a{
     display: none;
 }
 
-.card:hover .hearts{
-    display:block;
-    color: black;
-}
 
 .brand{
     color: grey;
@@ -99,6 +66,57 @@ a{
 .old_price{
     text-decoration: line-through;
 }
+
+/* #endregion Utilities */
+
+/* #region Header */
+
+#site_header {
+    background-color: rgb(241, 121, 7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    z-index: 9999;
+}
+
+.list{
+    display: flex;
+}
+
+.logo>img{
+    width: 100px;
+}
+
+/* #endregion Header */
+
+/* #region Main */
+
+#site_main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    position: relative;
+    width: 33%;
+    padding: 2rem;
+    margin-top: 5rem;
+}
+
+.card>img{
+    width: 100%;
+}
+.card:hover .hearts{
+    display:block;
+    color: black;
+}
+
+/* #endregion Main */
+
+/* #region Footer */
 
 #site_footer{
     display: flex;
@@ -116,4 +134,16 @@ a{
 .footer_2{
     padding-right: 10rem;
 }
+
+/* #endregion Footer */
+
+
+
+
+
+
+
+
+
+
 
