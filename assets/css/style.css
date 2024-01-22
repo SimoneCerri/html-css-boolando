@@ -37,7 +37,58 @@ a{
     flex-wrap: wrap;
 }
 
+.card{
+    position: relative;
+}
 
 .card>img{
-    width: 50%;
+    width: 100%;
+}
+
+.card_width{
+    width: 640px;
+}
+
+/* .card_height{
+    height: 924px;
+} */
+
+.discount{
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    padding: 0.25rem 0.5rem;
+}
+
+.sustain{
+    color: white;
+    background-color: green;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    padding: 0.25rem 0.5rem;
+}
+
+.hearts{
+    position: absolute;
+    top: 2%;
+    left: 95%;
+    background-color: white;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    font-size:1.5rem ;
+    display: none;
+}
+
+.card:hover .hearts{
+    display:block;
+    color: black;
+}
+
+#site_footer{
+    background-color: black;
+    color: white;
 }
